@@ -1,0 +1,16 @@
+.program{
+    transform: translate(00%, -20%);
+}
+.yoga{
+    height: 55vh;
+}
+.training{
+    transform: translate(00%, -240%);
+    background-color: gold;
+    width: 70%;
+}
+.training2{
+    transform: translate(00%, -240%);
+    background-color: gold;
+    width: 75%;
+}
