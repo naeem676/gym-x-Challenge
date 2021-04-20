@@ -4,9 +4,11 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
+import Advance from "./components/advance/Advance";
 import Home from "./components/home/Home";
 import NoMatch from "./components/nomatch/NoMatch";
 import OurClass from "./components/ourClass/OurClass";
+import Self from "./components/self/Self";
 
 function App() {
   return (
@@ -21,6 +23,12 @@ function App() {
         </Route>
         <Route path='/ourClass'>
           <OurClass></OurClass>
+        </Route>
+        <Route path='/advance'>
+         <Advance></Advance>
+        </Route>
+        <Route path='/self'>
+          <Self></Self>
         </Route>
         <Route path='*'>
           <NoMatch></NoMatch>
