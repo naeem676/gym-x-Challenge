@@ -1,9 +1,14 @@
 import React from 'react';
+import HomeFooter from '../home/homeFooter/HomeFooter';
+import AllClass from './allClass/AllClass';
+import ClassHeader from './ClassHeader/ClassHeader';
 
 const OurClass = () => {
     return (
         <div>
-            our class
+            <ClassHeader></ClassHeader>
+            <AllClass></AllClass>
+            <HomeFooter></HomeFooter>
         </div>
     );
 };

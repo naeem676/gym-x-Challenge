@@ -6,6 +6,7 @@ import {
 import './App.css';
 import Home from "./components/home/Home";
 import NoMatch from "./components/nomatch/NoMatch";
+import OurClass from "./components/ourClass/OurClass";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         </Route>
         <Route path='/home'>
           <Home></Home>
+        </Route>
+        <Route path='/ourClass'>
+          <OurClass></OurClass>
         </Route>
         <Route path='*'>
           <NoMatch></NoMatch>

@@ -11,13 +11,13 @@ const Nav = () => {
                         <div class="navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item mr-5 ">
-                            <Link class="nav-link text-white" aria-current="page">Home</Link>
+                            <Link class="nav-link text-white" to='/home' aria-current="page">Home</Link>
                             </li>
                             <li class="nav-item mr-5">
                             <Link class="nav-link text-white" aria-current="page">Service</Link>
                             </li>
                             <li class="nav-item mr-5">
-                            <Link class="nav-link text-white" aria-current="page">Our Classes</Link>
+                            <Link class="nav-link text-white" to='/ourClass' aria-current="page">Our Classes</Link>
                             </li>
                             <li class="nav-item mr-5">
                             <Link class="nav-link text-white" aria-current="page">About us</Link>
