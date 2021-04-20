@@ -19,7 +19,7 @@ const AllClass = () => {
                     <div>
                         <img className="cardio" src={cardioTraining} alt="" srcset=""/>
                     </div>
-                    <Link style={{textDecoration:'none'}}>
+                    <Link to='/cardio' style={{textDecoration:'none'}}>
                     <div className="name">
                         <h4>CARDIO TRAINING <FontAwesomeIcon icon={faArrowRight} /></h4>
                     </div>
@@ -29,7 +29,7 @@ const AllClass = () => {
                <div>
                         <img className="self" src={selfDefence} alt="" srcset=""/>
                     </div>
-                    <Link style={{textDecoration:'none'}}>
+                    <Link to='/self' style={{textDecoration:'none'}}>
                     <div className="name">
                         <h4>SELF DEFENCE <FontAwesomeIcon icon={faArrowRight} /></h4>
                     </div>
@@ -39,7 +39,7 @@ const AllClass = () => {
                <div>
                         <img className="advance" src={advanceGym} alt="" srcset=""/>
                     </div>
-                    <Link style={{textDecoration:'none'}}>
+                    <Link to='/advance' style={{textDecoration:'none'}}>
                     <div className="name">
                         <h4>ADVANCE TRAINING <FontAwesomeIcon icon={faArrowRight} /></h4>
                     </div>
@@ -49,7 +49,7 @@ const AllClass = () => {
                <div>
                         <img className="strength" src={strength} alt="" srcset=""/>
                     </div>
-                    <Link style={{textDecoration:'none'}}>
+                    <Link to='/strength' style={{textDecoration:'none'}}>
                     <div className="name">
                         <h4>STRENGTH TRAINING <FontAwesomeIcon icon={faArrowRight} /></h4>
                     </div>
@@ -59,7 +59,7 @@ const AllClass = () => {
                <div>
                         <img className="women" src={women} alt="" srcset=""/>
                     </div>
-                    <Link style={{textDecoration:'none'}}>
+                    <Link to='/women' style={{textDecoration:'none'}}>
                     <div className="name">
                         <h4>WOMEN TRAINING <FontAwesomeIcon icon={faArrowRight} /></h4>
                     </div>
@@ -69,7 +69,7 @@ const AllClass = () => {
                <div>
                         <img className="men" src={men} alt="" srcset=""/>
                     </div>
-                    <Link style={{textDecoration:'none'}}>
+                    <Link to='/men' style={{textDecoration:'none'}}>
                     <div className="name">
                         <h4>MEN TRAINING <FontAwesomeIcon icon={faArrowRight} /></h4>
                     </div>
