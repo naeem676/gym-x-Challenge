@@ -10,6 +10,7 @@ import Home from "./components/home/Home";
 import Men from "./components/men/Men";
 import NoMatch from "./components/nomatch/NoMatch";
 import OurClass from "./components/ourClass/OurClass";
+import Pricing from "./components/pricing/Pricing";
 import Self from "./components/self/Self";
 import Strength from "./components/strength/Strength";
 import Women from "./components/women/Women";
@@ -45,6 +46,9 @@ function App() {
         </Route>
         <Route path='/strength'>
           <Strength></Strength>
+        </Route>
+        <Route path='/pricing'>
+          <Pricing></Pricing>
         </Route>
         <Route path='*'>
           <NoMatch></NoMatch>
